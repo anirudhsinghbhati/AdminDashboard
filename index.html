@@ -1,1 +1,173 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="search_bar" placeholder="Search..." aria-label="Search">
+                </div>
+                <div class="profile">
+                    <i class="fa-solid fa-bell"></i>
+                    <img class="small_logo" src="https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/30145907/ABC-Logo-1536x864.png" alt="small logo">
+                    <h3>Morgan Oakley</h3>
+                </div>
+            </div>
+            <div class="head">
+                <div class="greet">
+                    <img class="logo" src="https://bcassetcdn.com/public/blog/wp-content/uploads/2021/11/30145907/ABC-Logo-1536x864.png" alt="logo">
+                    <div>
+                        <p>Hii there,</p>
+                        <h2>Morgan Oakley (@morgan)</h2>
+                    </div>
+                </div>
+                <div class="file_option">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+                <h1>Dashboard</h1>
+            <div class="primary_option">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <p>Profile</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-message"></i>
+                    <p>Messages</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <p>History</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <p>Tasks</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-users-line"></i>
+                    <p>Communities</p>
+                </div>
+            </div>    
+            <div class="secondary_option">
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <p>Setting</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-question"></i>
+                    <p>Support</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield-keyhole"></i>
+                    <p>Privacy</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="project_cards">
+                <p class="headline">Your Projects</p>
+                <div class="cards">
+                    <div class="card">
+                        <p class="project_name">Super Cool Project</p>
+                        <p class="project_description">A dashboard project to manage and visualize your data efficiently and intuitively.</p>
+                        
+                    </div>
+                    <div class="card">
+                        <p class="project_name">Less Cool Project</p>
+                        <p class="project_description">A simple project for tracking daily tasks and boosting productivity.</p>
+                        
+                    </div>
+                    <div class="card">
+                        <p class="project_name">Impossible App</p>
+                        <p class="project_description">An ambitious app aiming to solve complex problems with innovative solutions.</p>
+                       
+                    </div>
+                    <div class="card">
+                        <p class="project_name">Easy Peasy App</p>
+                        <p class="project_description">A user-friendly application designed for quick and easy note-taking.</p>
+                        
+                    </div>
+                    <div class="card">
+                        <p class="project_name">Ad Blocker</p>
+                        <p class="project_description">Blocks unwanted ads and enhances your browsing experience seamlessly.</p>
+                        
+                    </div>
+                    <div class="card">
+                        <p class="project_name">Money Maker</p>
+                        <p class="project_description">A finance app to help you track expenses and maximize your savings.</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="notification_area">
+                <p class="headline">Announcements</p>
+                <div class="notification_cards">
+                <div class="announcements">
+                    <div>
+                        <p class="ann_name">Site Maintenance</p>
+                        <p class="ann_brief">The site will be undergoing scheduled maintenance on Saturday at 2 AM.</p>
+                    </div>
+                    <div>
+                        <p class="ann_name">Community Share Day</p>
+                        <p class="ann_brief">Join us for Community Share Day this Friday to connect and collaborate!</p>
+                    </div>
+                    <div>
+                        <p class="ann_name">Updated Privacy Policy</p>
+                        <p class="ann_brief">Our privacy policy has been updated. .</p>
+                    </div>
+                </div>
+                <div class="trending">
+                    <p class="headline">Trending</p>
+                    <div class="trend_list">
+                        <div class="trend_item">
+                            <img src="https://imgs.search.brave.com/nIdcHZHkRLuhVCFtzzG2kLAcR2d0mbp27wD0r0NZ-5s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLXByb2Zp/bGUtbG9nby1ncmFw/aGljLWRlc2lnbi1j/b25jZXB0LWVkaXRh/YmxlLW1hbi1wcm9m/aWxlLWVsZW1lbnQt/Y2FuLWJlLXVzZWQt/YXMtbG9nb3R5cGUt/aWNvbi10ZW1wbGF0/ZS13ZWItcHJpbnRf/MTU5MjQyLTM5MTAu/anBnP3NlbXQ9YWlz/X2l0ZW1zX2Jvb3N0/ZWQmdz03NDA" alt="">
+                            <div>
+                                <p>@tegan</p>
+                                <p class="sub">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trend_item">
+                            <img src="https://imgs.search.brave.com/nIdcHZHkRLuhVCFtzzG2kLAcR2d0mbp27wD0r0NZ-5s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLXByb2Zp/bGUtbG9nby1ncmFw/aGljLWRlc2lnbi1j/b25jZXB0LWVkaXRh/YmxlLW1hbi1wcm9m/aWxlLWVsZW1lbnQt/Y2FuLWJlLXVzZWQt/YXMtbG9nb3R5cGUt/aWNvbi10ZW1wbGF0/ZS13ZWItcHJpbnRf/MTU5MjQyLTM5MTAu/anBnP3NlbXQ9YWlz/X2l0ZW1zX2Jvb3N0/ZWQmdz03NDA" alt="">
+                            <div>
+                                <p>@morgan</p>
+                                <p class="sub">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trend_item">
+                            <img src="https://imgs.search.brave.com/nIdcHZHkRLuhVCFtzzG2kLAcR2d0mbp27wD0r0NZ-5s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLXByb2Zp/bGUtbG9nby1ncmFw/aGljLWRlc2lnbi1j/b25jZXB0LWVkaXRh/YmxlLW1hbi1wcm9m/aWxlLWVsZW1lbnQt/Y2FuLWJlLXVzZWQt/YXMtbG9nb3R5cGUt/aWNvbi10ZW1wbGF0/ZS13ZWItcHJpbnRf/MTU5MjQyLTM5MTAu/anBnP3NlbXQ9YWlz/X2l0ZW1zX2Jvb3N0/ZWQmdz03NDA" alt="">
+                            <div>
+                                <p>@kendall</p>
+                                <p class="sub">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trend_item">
+                            <img src="https://imgs.search.brave.com/nIdcHZHkRLuhVCFtzzG2kLAcR2d0mbp27wD0r0NZ-5s/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLXByb2Zp/bGUtbG9nby1ncmFw/aGljLWRlc2lnbi1j/b25jZXB0LWVkaXRh/YmxlLW1hbi1wcm9m/aWxlLWVsZW1lbnQt/Y2FuLWJlLXVzZWQt/YXMtbG9nb3R5cGUt/aWNvbi10ZW1wbGF0/ZS13ZWItcHJpbnRf/MTU5MjQyLTM5MTAu/anBnP3NlbXQ9YWlz/X2l0ZW1zX2Jvb3N0/ZWQmdz03NDA" alt="">
+                            <div>
+                                <p>@alex</p>
+                                <p class="sub">No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
